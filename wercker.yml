@@ -3,7 +3,8 @@ box: golang
 dev:
   steps:
     - setup-go-workspace:
-        package-dir: github.com/vetm73/firstGo
+        gopath: /tmp
+        package-dir: firstGo
     - script:
         name: env
         code: env
@@ -21,7 +22,7 @@ dev:
 build:
   steps:
     - setup-go-workspace:
-        package-dir: github.com/vetm73/firstGo
+        package-dir: /firstgo
     - script:
         name: env
         code: env

@@ -17,6 +17,9 @@
 ### Example user template template
 ### Example user template
 
+# Wercker
+.wercker/
+
 # IntelliJ project files
 .idea
 *.iml

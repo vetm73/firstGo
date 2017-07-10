@@ -22,7 +22,7 @@ dev:
 build:
   steps:
     - setup-go-workspace:
-        package-dir: /firstgo
+        package-dir: /firstGo
     - script:
         name: env
         code: env
